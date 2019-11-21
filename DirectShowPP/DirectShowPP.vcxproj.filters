@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f9bbb804-2c82-467c-a6c5-023aad552f32}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{659f3a2e-1367-475d-930d-62ce30c0a23b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{43146c22-1578-42ab-b882-2b22e211e112}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="player\AudioStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player\BasicPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bmpfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CZoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DES.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dibapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShowPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShowPPDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShowPPView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgASS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCertificate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgInputPwd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player\FastFourierTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player\IO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jpegfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lrc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LrcBuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LrcSearchDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player\Stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DirectShowPP.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="player\AudioStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player\BasicPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BMPFILE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player\CriticalSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dibapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShowPP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShowPPDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShowPPView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgASS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCertificate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgInputPwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player\FastFourierTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player\IO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jpegfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LrcBuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LrcSearchDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myresource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player\Stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player\Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player\WinDirectAudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\002.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\011.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="123.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\3232.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\3232doc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\button.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\button_common.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\close.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DirectShowPP.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\down.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\down1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ExeIco11.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\hel_focu.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\hel_norm.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Left_Down.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Left_Down1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\line.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\luoluo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\luoluo.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\m_button2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\m_button3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\m_button4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\m_button5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Max.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\middle.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\min.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MmShow.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MmShowDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\net.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Normal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Right_Down.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Right_Down1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\title_Left.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rc\title_Left.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\title_Left1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rc\title_Right.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\title_Right.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\title_Right1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rc\top.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\top.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rc\top1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\top1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\工具条2_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="camera4.wav" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ReadMe.txt" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+  </ItemGroup>
+</Project>

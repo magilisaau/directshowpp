@@ -1,0 +1,25 @@
+------ 已启动生成: 项目: SSSHOW, 配置: Debug Win32 ------
+正在编译...
+IO.cpp
+e:\dev\player\io.cpp(758) : warning C4244: “=”: 从“LONGLONG”转换到“DWORD”，可能丢失数据
+e:\dev\player\io.cpp(775) : warning C4002: “GetCurrentTime”宏的实参太多
+e:\dev\player\io.cpp(777) : warning C4244: “return”: 从“LONGLONG”转换到“DWORD”，可能丢失数据
+e:\dev\player\io.cpp(837) : warning C4018: “<”: 有符号/无符号不匹配
+e:\dev\player\io.cpp(884) : warning C4018: “<”: 有符号/无符号不匹配
+e:\dev\player\io.cpp(924) : warning C4018: “<”: 有符号/无符号不匹配
+e:\dev\player\io.cpp(969) : warning C4018: “<”: 有符号/无符号不匹配
+e:\dev\player\io.cpp(1027) : warning C4018: “<”: 有符号/无符号不匹配
+e:\dev\player\io.cpp(1869) : warning C4244: “=”: 从“INT64”转换到“unsigned long”，可能丢失数据
+e:\dev\player\io.cpp(2384) : warning C4002: “GetCurrentTime”宏的实参太多
+e:\dev\player\io.cpp(2404) : warning C4002: “GetCurrentTime”宏的实参太多
+e:\dev\player\io.cpp(2409) : warning C4002: “GetCurrentTime”宏的实参太多
+正在编译资源...
+正在编译资源清单...
+正在链接...
+LINK : fatal error LNK1104: 无法打开文件“DDRAW.LIB”
+正在创建浏览信息文件...
+Microsoft ?????????? Version 8.00.50727
+Copyright (C) Microsoft Corporation. All rights reserved.
+生成日志保存在“file://e:\dev\Debug\BuildLog.htm”
+SSSHOW - 1 个错误，12 个警告
+========== 生成: 0 已成功, 1 已失败, 3 最新, 0 已跳过 ==========

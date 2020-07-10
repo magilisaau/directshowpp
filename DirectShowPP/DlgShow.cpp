@@ -1313,8 +1313,8 @@ void CDlgShow::DrawTitleBar(CDC *pDC)
 		CRect rtWnd, rtTitle, rtButtons;
 		GetWindowRect(&rtWnd); 
 		//取得标题栏的位置
-		xFramesWidth=rtTitle.left = GetSystemMetrics(SM_CXFRAME);
-		yFrameWidth=rtTitle.top = GetSystemMetrics(SM_CYFRAME);
+		xFramesWidth=rtTitle.left = GetSystemMetrics(SM_CXFRAME)+ GetSystemMetrics(SM_CXPADDEDBORDER);
+		yFrameWidth=rtTitle.top = GetSystemMetrics(SM_CYFRAME) + GetSystemMetrics(SM_CXPADDEDBORDER);
 		rtTitle.right = rtWnd.right - rtWnd.left - GetSystemMetrics(SM_CXFRAME);
 		rtTitle.bottom = rtTitle.top + GetSystemMetrics(SM_CYSIZE);
 		//debug
@@ -1400,7 +1400,7 @@ void CDlgShow::DrawTitleBar(CDC *pDC)
 
 
 		//重画左边框
-		int max_xFramesWidth=min(xFramesWidth,4);
+		int max_xFramesWidth = min(xFramesWidth, 4);
 		pBitmap->LoadBitmap(IDB_RIGHTDOWN);
 		pBitmap->GetBitmap(&BmpInfo);
 		pOldBitmap=(CBitmap*)pDisplayMemDC->SelectObject(pBitmap);
@@ -1465,7 +1465,7 @@ void CDlgShow::DrawTitleBar(CDC *pDC)
 		ReleaseDC(pDisplayMemDC);
 		delete pDisplayMemDC;
 		delete pBitmap;    
-        DrawSlider();
+        //DrawSlider();
 	}
 }
 LRESULT CDlgShow::DefWindowProc(UINT message, WPARAM wParam, LPARAM lParam) 
@@ -3378,7 +3378,7 @@ void CDlgShow::ShowLRC()
 {
 
     int posx,posy;
-	FONT_HIGH=window_height/18;
+	FONT_HIGH=window_height/15;
 	if(FONT_HIGH<25) FONT_HIGH=25;
 	FONT_WIDTH=FONT_HIGH/2;
 	if(m_curLycris.IsEmpty()) return;
@@ -3399,7 +3399,7 @@ void CDlgShow::ShowLRC()
   	//draw lrc 
 	  posx =(window_width-FONT_WIDTH*m_curLycris.GetLength())/2;
 		posy =window_height-FONT_HIGH-FONT_HIGH/3/*-FONT_HIGH-FONT_HIGH/3*/;	
-		DrawText(&bkdc,m_curLycris,posx+FONT_HIGH/25,posy+FONT_HIGH/25,RGB(200,200,200));		
+		DrawText(&bkdc,m_curLycris,posx+FONT_HIGH/25,posy+FONT_HIGH/25,RGB(128,0,128));		
 		DrawText(&bkdc,m_curLycris,posx,posy,RGB(0,0,0));	
 	  //draw forward info
 		if(/*g_head.forward!=0 && */m_forwardflag!=-1)

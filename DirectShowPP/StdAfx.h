@@ -78,7 +78,7 @@ typedef unsigned long POINTER_64_INT;
 //#pragma comment(lib, "wmvcore.lib")
 #pragma comment(lib, "msimg32.lib")
 #pragma comment(lib, "msacm32.lib")
-
+#pragma comment(lib, "legacy_stdio_definitions.lib")
 #define USE_DAUDIO TRUE
 #define USE_ERROR
 #define USE_TRACE

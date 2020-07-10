@@ -55,13 +55,13 @@ public:
 	void DelTray();
 	void HideInTray();
 	void ShowLRC();
-	void DrawSlider();
 	void OnSetTop();
 	void OnButtonShow();
 	int GetButtonState(int index);
 	void OnButtonStop();
 	bool IsButtonChecked(int index);
 	void ShowButtons();
+	void DrawSlider();
 	void OnPushButton();
 	void ChangeButtonState(int index,int state);
 	void UpdateButtonStatus();

@@ -116,10 +116,10 @@ void CComDlg::DrawTitleBar(CDC *pDC)
 		CRect rtWnd, rtTitle, rtButtons;
 		GetWindowRect(&rtWnd); 
 		//取得标题栏的位置
-		xFramesWidth=rtTitle.left = GetSystemMetrics(SM_CXFRAME);
-		yFrameWidth=rtTitle.top = GetSystemMetrics(SM_CYFRAME);
+		xFramesWidth=rtTitle.left = GetSystemMetrics(SM_CXFRAME)+ GetSystemMetrics(SM_CXPADDEDBORDER);
+		yFrameWidth=rtTitle.top = GetSystemMetrics(SM_CYFRAME)+ GetSystemMetrics(SM_CXPADDEDBORDER);
 		rtTitle.right = rtWnd.right - rtWnd.left - GetSystemMetrics(SM_CXFRAME);
-		rtTitle.bottom = rtTitle.top + GetSystemMetrics(SM_CYSIZE);
+		rtTitle.bottom = rtTitle.top +GetSystemMetrics(SM_CYSIZE);
 		//计算最小化按钮的位置，位图大小为23*23
 		rtButtons.left = rtTitle.right-23;
 		rtButtons.top= rtTitle.top+2;

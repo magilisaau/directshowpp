@@ -65,7 +65,9 @@ END
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
 IDR_MAINFRAME           ICON                    "res\\3232.ico"
+
 IDR_MMSHOWTYPE          ICON                    "res\\3232doc.ico"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -133,14 +135,14 @@ STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSM
 FONT 9, "ËÎÌå", 0, 0, 0x0
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,196,31,20,20
-    LTEXT           "ssshow v1.1 release",IDC_STATIC,17,12,131,8,SS_NOPREFIX
-    LTEXT           "Copyright(C) 2009-2010",IDC_STATIC,37,25,101,8
+    LTEXT           "ssshow v1.2 release",IDC_STATIC,13,12,131,8,SS_NOPREFIX
+    LTEXT           "Copyright(C) 2009-2010",IDC_STATIC,20,25,101,8
     DEFPUSHBUTTON   "È·¶¨",IDOK,184,7,50,14,WS_GROUP
-    LTEXT           "dedicated to Lisa && LuoLuo",IDC_STATIC,71,52,109,9
-    CONTROL         199,IDC_STATIC,"Static",SS_BITMAP,19,90,200,159
-    LTEXT           " njmoon@hotmail.com£¬by Magi",IDC_STATIC,53,38,124,8
-    LTEXT           "http://blog.sina.com.cn/hellomagi",IDC_STATIC,87,65,134,9
-    LTEXT           "QQ:47723360",IDC_STATIC,118,77,52,9
+    LTEXT           "dedicated to Lisa && LuoLuo",IDC_STATIC,60,62,109,9
+    CONTROL         IDB_BITMAP4,IDC_STATIC,"Static",SS_BITMAP,19,90,200,159
+    LTEXT           "Magi: magilisaau@gmail.com",IDC_STATIC,33,39,111,8
+    LTEXT           "WECHAT: hellomagi",IDC_STATIC,80,75,94,9
+    LTEXT           "Lisa: lisahuangade19.gmail.com",IDC_STATIC,47,50,135,8
 END
 
 IDD_DIALOG1 DIALOGEX 0, 0, 366, 234
@@ -368,25 +370,56 @@ END
 //
 
 IDB_DOWN                BITMAP                  "res\\down.bmp"
+
 IDB_DOWN1               BITMAP                  "res\\down1.bmp"
+
 IDB_HELP_FOCUS          BITMAP                  "res\\hel_focu.bmp"
+
 IDB_TOP                 BITMAP                  "res\\top1.bmp"
+
 IDB_LEFTDOWN            BITMAP                  "res\\Left_Down1.bmp"
+
 IDB_RIGHTDOWN           BITMAP                  "res\\Right_Down1.bmp"
+
 IDB_LINE                BITMAP                  "res\\line.bmp"
+
 IDB_MIDDLE              BITMAP                  "res\\middle.bmp"
+
 IDB_BUTTON              BITMAP                  "res\\button.bmp"
+
 IDB_PLAY_BUTTON         BITMAP                  "res\\bitmap2.bmp"
+
 IDB_STOP_BUTTON         BITMAP                  "res\\m_button2.bmp"
+
 IDB_OPEN_BUTTON         BITMAP                  "res\\m_button3.bmp"
+
 IDB_BUTTON_COMMON       BITMAP                  "res\\button_common.bmp"
+
 IDB_SHOW_BUTTON         BITMAP                  "res\\m_button4.bmp"
+
 IDB_BITMAP3             BITMAP                  "res\\bitmap3.bmp"
+
 IDB_PIC_CLICK           BITMAP                  "res\\m_button5.bmp"
+
 IDB_001                 BITMAP                  "res\\001.bmp"
+
 IDB_002                 BITMAP                  "res\\002.bmp"
+
 IDB_011                 BITMAP                  "res\\011.bmp"
+
 IDB_BITMAP4             BITMAP                  "res\\luoluo.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
 
 /////////////////////////////////////////////////////////////////////////////
 //

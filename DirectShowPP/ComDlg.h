@@ -20,6 +20,7 @@ public:
 	void ResetList();
 	void GetNextPlay();
 	void DrawTitleBar(CDC *pDC);
+	void DrawSlide();
 	CComDlg(CWnd* pParent = NULL);   // standard constructor
 
 // Dialog Data

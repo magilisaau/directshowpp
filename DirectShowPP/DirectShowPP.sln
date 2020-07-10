@@ -1,25 +1,42 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSSHOW", "DirectShowPP.vcxproj", "{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
 		Release_SSE|Win32 = Release_SSE|Win32
+		Release_SSE|x64 = Release_SSE|x64
 		Release_SSE2|Win32 = Release_SSE2|Win32
+		Release_SSE2|x64 = Release_SSE2|x64
 		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Debug|Win32.ActiveCfg = Debug|Win32
 		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Debug|Win32.Build.0 = Debug|Win32
+		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Debug|x64.ActiveCfg = Debug|x64
+		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Debug|x64.Build.0 = Debug|x64
 		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Release_SSE|Win32.ActiveCfg = Release|Win32
 		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Release_SSE|Win32.Build.0 = Release|Win32
+		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Release_SSE|x64.ActiveCfg = Release|x64
+		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Release_SSE|x64.Build.0 = Release|x64
 		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Release_SSE2|Win32.ActiveCfg = Release|Win32
 		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Release_SSE2|Win32.Build.0 = Release|Win32
+		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Release_SSE2|x64.ActiveCfg = Release|x64
+		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Release_SSE2|x64.Build.0 = Release|x64
 		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Release|Win32.ActiveCfg = Release|Win32
 		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Release|Win32.Build.0 = Release|Win32
+		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Release|x64.ActiveCfg = Release|x64
+		{77C5A96F-B1EC-4F26-90D3-ED8A02AC084C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7EFE073-0812-471D-98A0-CF512BBA2D5C}
 	EndGlobalSection
 EndGlobal
